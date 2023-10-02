@@ -40,3 +40,31 @@ let isLoggedIn = 1
 
 // Boolean() conversion 1 - true, 0 - false, "" - false, "yash" - true
 
+// *************** Operations ******************
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+console.log(2**3) //2^3
+
+let str1= "hello"
+let str2= "yash"
+let str3 = str1+str2 // string concatentation
+
+console.log("1"+2) // "12" JS smart to convert
+console.log(1+"2") // "12" JS smart to convert
+console.log("1"+2+2) // "122" 
+console.log(1+2+"2") // "12" JS smart to convert - look at tc39 for conversion algo
+
+//ToPrimitive - function to convert into another Form
+
+console.log(+true); // possible, + converts to number
+console.log(true+); // not possible, here true comes first then + so error
+
+let num1,num2,num3
+
+num1=num2=num3=2+2 // works but bad way to write
+
+// prefix and postfix operator - i++, ++i read on mdn
+
+
