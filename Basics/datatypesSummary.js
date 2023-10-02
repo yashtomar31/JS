@@ -32,3 +32,23 @@ const myfunc = function(){ // function can be considered as variable
 // very commonly asked question is what is output of typeof null, the ans is object
 
 // https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator
+
+
+//*******************Memory******************/
+
+// Two types - Stack (Primitive) , Heap ( Non- Primitive)
+
+let james = 'Lebron' // primitve so goes in stack, Pass by value so when refer the variable, so new value is passed instead of refrence
+
+let userOne = {
+    name:'Yash',
+    age:22
+}
+let userTwo = userOne
+userTwo.age = -1
+
+console.log(userOne)
+console.log(userTwo) // so same value we get, which shows pass by refrence, so original value get changed.
+
+
+
