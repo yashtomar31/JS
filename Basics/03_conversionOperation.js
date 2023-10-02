@@ -59,12 +59,12 @@ console.log(1+2+"2") // "12" JS smart to convert - look at tc39 for conversion a
 //ToPrimitive - function to convert into another Form
 
 console.log(+true); // possible, + converts to number
-console.log(true+); // not possible, here true comes first then + so error
+// console.log(true+); // not possible, here true comes first then + so error
 
 let num1,num2,num3
 
 num1=num2=num3=2+2 // works but bad way to write
 
-// prefix and postfix operator - i++, ++i read on mdn
+// prefix and postfix operator - i++, ++i read on tc39
 
 
